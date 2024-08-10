@@ -1,0 +1,34 @@
+{
+    "@id": "dtmi:com:example:Machine;1",
+    "@type": "Interface",
+    "displayName": "Machine",
+    "description": "Machine with multiple components connected",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Component",
+        "name": "driveComponent",
+        "schema": "dtmi:com:example:DriveComponent;1",
+        "displayName": "Drive Component"
+      },
+      {
+        "@type": "Component",
+        "name": "engineComponent",
+        "schema": "dtmi:com:example:EngineComponent;1",
+        "displayName": "Engine Component"
+      },
+      {
+        "@type": "Component",
+        "name": "fuelComponent",
+        "schema": "dtmi:com:example:FuelComponent;1",
+        "displayName": "Fuel Component"
+      },
+      {
+        "@type": "Component",
+        "name": "miscComponent",
+        "schema": "dtmi:com:example:MiscComponent;1",
+        "displayName": "Miscellaneous Component"
+      }
+    ]
+  }
+  
